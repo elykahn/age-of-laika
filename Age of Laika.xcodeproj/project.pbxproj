@@ -13,6 +13,7 @@
 		4D210CEE1B31D493009828EB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D210CED1B31D493009828EB /* Images.xcassets */; };
 		4D210CF11B31D493009828EB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D210CEF1B31D493009828EB /* LaunchScreen.xib */; };
 		4D210CFD1B31D493009828EB /* Age_of_LaikaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D210CFC1B31D493009828EB /* Age_of_LaikaTests.swift */; };
+		4D210D071B31D4CC009828EB /* AgeOfLaika.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D210D061B31D4CC009828EB /* AgeOfLaika.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		4D210CF61B31D493009828EB /* Age of LaikaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Age of LaikaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D210CFB1B31D493009828EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D210CFC1B31D493009828EB /* Age_of_LaikaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Age_of_LaikaTests.swift; sourceTree = "<group>"; };
+		4D210D061B31D4CC009828EB /* AgeOfLaika.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = AgeOfLaika.jpg; path = ../AgeOfLaika.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		4D210CE41B31D493009828EB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4D210D061B31D4CC009828EB /* AgeOfLaika.jpg */,
 				4D210CE51B31D493009828EB /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -193,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D210CEC1B31D493009828EB /* Main.storyboard in Resources */,
+				4D210D071B31D4CC009828EB /* AgeOfLaika.jpg in Resources */,
 				4D210CF11B31D493009828EB /* LaunchScreen.xib in Resources */,
 				4D210CEE1B31D493009828EB /* Images.xcassets in Resources */,
 			);
