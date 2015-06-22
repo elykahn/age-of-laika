@@ -22,7 +22,7 @@
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Dog Age" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yc9-RF-9TD">
                                 <rect key="frame" x="48" y="28" width="188" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Calendar Years" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kuZ-3C-EgN">
@@ -37,6 +37,16 @@
                                 </state>
                                 <connections>
                                     <action selector="convertButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="f3e-18-D6f"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NIg-SV-7DU">
+                                <rect key="frame" x="349" y="63" width="130" height="30"/>
+                                <state key="normal" title="Convert Real">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="convertToDogRealYearsButttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TyU-EC-YZp"/>
+                                    <action selector="convertToRealDogYearsButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Bsm-Ct-mmr"/>
                                 </connections>
                             </button>
                         </subviews>
